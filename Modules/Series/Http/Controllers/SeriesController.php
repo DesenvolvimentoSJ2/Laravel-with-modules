@@ -14,7 +14,8 @@ class SeriesController extends Controller
      */
     public function index()
     {
-        return view('series::index');
+        // return view('series::index');
+        return view('series::Admin.Series.index');
     }
 
     /**
