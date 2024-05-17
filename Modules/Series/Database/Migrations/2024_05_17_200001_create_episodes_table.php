@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::connection('series')->create('series', function (Blueprint $table) {
+        Schema::connection('series')->create('episodes', function (Blueprint $table) {
             $table->id();
 
             $table->timestamps();
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::connection('series')->dropIfExists('series');
+        Schema::connection('series')->dropIfExists('episodes');
     }
 };
