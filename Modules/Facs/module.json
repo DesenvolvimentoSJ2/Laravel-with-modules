@@ -1,0 +1,11 @@
+{
+    "name": "Facs",
+    "alias": "facs",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Facs\\Providers\\FacsServiceProvider"
+    ],
+    "files": []
+}
